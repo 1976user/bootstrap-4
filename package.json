@@ -6,13 +6,16 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "less": "lessc ./css/styles.less ./css/styles.css",
+    "sass": "node-sass -o css css"
   },
   "author": "1976user",
   "license": "ISC",
   "devDependencies": {
     "less": "^2.7.2",
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
